@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GSP.Library.Models.Interfaces
+namespace Gsp.Library.Models.Interfaces
 {
     public interface IDtStamped
     {

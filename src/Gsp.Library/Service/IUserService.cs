@@ -1,16 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using GSP.Library.Models;
+using Gsp.Library.Models;
 
-namespace GSP.Library.Service
+namespace Gsp.Library.Service
 {
     public interface IUserService : IDisposable
     {
         IQueryable<User> GetUsers();
         User GetUser(Guid id);
+        User GetUser(string token);
         void Insert(User user);
         void Update();
         void Delete(Guid id);

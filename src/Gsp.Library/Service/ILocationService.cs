@@ -1,11 +1,8 @@
-﻿using GSP.Library.Models;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Gsp.Library.Models;
 
-namespace GSP.Library.Service
+namespace Gsp.Library.Service
 {
     public interface ILocationService : IDisposable
     {

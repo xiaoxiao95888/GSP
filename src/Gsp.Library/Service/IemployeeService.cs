@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Linq;
-using GSP.Library.Models;
+using Gsp.Library.Models;
 
-namespace GSP.Library.Service
+namespace Gsp.Library.Service
 {
     public interface IEmployeeService : IDisposable
     {

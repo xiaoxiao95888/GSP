@@ -1,9 +1,9 @@
-﻿using GSP.Library.Models.Interfaces;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
+using Gsp.Library.Models.Interfaces;
 
-namespace GSP.Library.Models
+namespace Gsp.Library.Models
 {
     [Table("Employees")]
     public class Employee : IDtStamped

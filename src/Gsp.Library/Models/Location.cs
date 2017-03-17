@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace GSP.Library.Models
+namespace Gsp.Library.Models
 {
     [Table("Locations")]
     public class Location

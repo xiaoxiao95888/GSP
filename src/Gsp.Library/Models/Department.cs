@@ -1,12 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using GSP.Library.Models.Interfaces;
+using Gsp.Library.Models.Interfaces;
 
-namespace GSP.Library.Models
+namespace Gsp.Library.Models
 {
     [Table("Departments")]
     public class Department: IDtStamped
@@ -16,6 +13,8 @@ namespace GSP.Library.Models
         public Guid? ParentId { get; set; }
         [ForeignKey("ParentId")]
         public virtual Department Parent { get; set; }
+        public virtual ICollection<Position> Positions { get; set; }
+        public int? Order { get; set; }
         public DateTime CreateTime { get; set; }
         public DateTime UpdateTime { get; set; }
         public bool IsDeleted { get; set; }

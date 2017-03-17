@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
-using GSP.Library.Models.Interfaces;
+using Gsp.Library.Models.Interfaces;
 
-namespace GSP.Library.Models
+namespace Gsp.Library.Models
 {
     [Table("Positions")]
     public class Position : IDtStamped
@@ -14,7 +14,8 @@ namespace GSP.Library.Models
         public Guid DepartmentId { get; set; }
         [ForeignKey("DepartmentId")]
         public virtual Department Department { get; set; }
-        public virtual ICollection<PositionMenu> Menus { get; set; }
+        public virtual ICollection<RolePosition> RolePositions { get; set; }
+        public virtual ICollection<EmployeePosition> EmployeePositions { get; set; }
         public DateTime CreateTime { get; set; }
         public DateTime UpdateTime { get; set; }
         public bool IsDeleted { get; set; }

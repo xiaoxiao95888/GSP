@@ -939,11 +939,14 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\fonts.googleapis.com.min.css" />
+    <Content Include="Content\ionicons.min.css" />
     <Content Include="css\font-awesome.css" />
     <Content Include="css\font-awesome.min.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Index.html" />
+    <Content Include="Login.html" />
+    <Content Include="Main.html" />
     <Content Include="packages.config" />
     <Content Include="AdminLTE\dist\css\fonts\fpTVHK8qsXbIeTHTrnQH6CzM2XYAq8cDhaXsrN8WXcA.woff2" />
     <Content Include="AdminLTE\dist\css\fonts\fpTVHK8qsXbIeTHTrnQH6E78GtRp3lhchupCJNw8t58.woff2" />
@@ -1772,6 +1775,7 @@
     <Content Include="Scripts\js\controllers.js" />
     <Content Include="Scripts\js\directive.js" />
     <Content Include="Scripts\js\services.js" />
+    <Content Include="Scripts\ocLazyLoad.min.js" />
     <Content Include="Scripts\version.json" />
     <Content Include="Scripts\errors.json" />
     <Content Include="Scripts\angular.min.js.map" />
@@ -1799,6 +1803,11 @@
     <None Include="Scripts\jquery-2.2.3.intellisense.js" />
     <Content Include="Scripts\jquery-2.2.3.js" />
     <Content Include="Scripts\jquery-2.2.3.min.js" />
+    <Content Include="templates\partials\content.html" />
+    <Content Include="templates\partials\controlsidebar.html" />
+    <Content Include="templates\partials\footer.html" />
+    <Content Include="templates\partials\header.html" />
+    <Content Include="templates\partials\leftside.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
